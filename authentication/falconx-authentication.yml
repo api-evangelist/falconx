@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: https://falconx.stoplight.io/docs/falconx-api/authentication
+docs: https://falconx.stoplight.io/docs/falconx-api/authentication
+note: >-
+  FalconX exposes a private, institution-onboarded REST trading API at
+  https://api.falconx.io. The public developer portal documents an API-key
+  security scheme (scheme name "ApiKey"); unauthenticated requests to the API
+  host redirect to a login/authorization flow. Full request-signing details are
+  behind institutional onboarding and were not verified from a public spec, so
+  only the confirmed key-based model is recorded here.
+summary:
+  types:
+  - apiKey
+schemes:
+- name: ApiKey
+  type: apiKey
+  description: >-
+    API-key credential issued to onboarded FalconX institutional clients,
+    required on all api.falconx.io REST calls.
+  sources:
+  - https://falconx.stoplight.io/docs/falconx-api/authentication
