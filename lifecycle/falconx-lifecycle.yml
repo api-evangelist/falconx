@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.falconx.io
+versioning:
+  scheme: uri-path
+  current: v1
+  evidence: 'api.falconx.io serves versioned paths under /v1/ (observed: /v1/pairs
+    redirects to the authorization flow)'
+status_page: https://status.falconx.io
+status_page_provider: Atlassian Statuspage
+monitored_components:
+- Website
+- OTC
+- Execute
+- DMA APIs
+- Price Quote
+- Order
+- Fetch Trade History
+- Fetch Balance
+- Fetch Transfer
+- Get trade limits
+- Customer Support
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No public deprecation/sunset policy found on the developer portal.
+sla:
+  url: null
+  note: No public SLA/uptime target published; status page reported 100% uptime over
+    the trailing 90 days at time of probe.
+deprecated_operations: []

@@ -1,0 +1,33 @@
+# FalconX
+
+> FalconX is an institutional digital-asset prime brokerage providing trading, credit and financing, custody, and market-access services to banks, asset managers, hedge funds, and other financial institutions. It offers spot, derivatives, options, and FX execution across 400+ tokens via an OTC desk, an execution-management system (Execute), and direct market access (DMA) with cross-margining and one-click borrowing. FalconX exposes a REST trading API at api.falconx.io for price quotes, order execution, trade history, balances, transfers, and trade limits.
+
+## APIs
+
+- [FalconX API](https://falconx.stoplight.io): REST trading API (base https://api.falconx.io) for institutional digital-asset execution — quotes, orders, execution, trade history, balances, transfers, trade limits.
+
+## Docs
+
+- [Developer portal / API reference](https://falconx.stoplight.io): Public Stoplight documentation for the FalconX API.
+- [Authentication](https://falconx.stoplight.io/docs/falconx-api/authentication): API-key authentication for onboarded institutional clients.
+- [Status page](https://status.falconx.io): Atlassian Statuspage for API and trading system components.
+- [Security report](https://www.falconx.io/security-report): Report a security issue.
+
+## Company
+
+- [Website](https://www.falconx.io)
+- [Newsroom / blog](https://www.falconx.io/newsroom)
+- [Insights](https://www.falconx.io/insights)
+- [Contact / support](https://www.falconx.io/contact)
+- [Sign up / login](https://app.falconx.io/login)
+
+## Legal
+
+- [Terms of use](https://www.falconx.io/terms-of-use)
+- [Privacy policy](https://www.falconx.io/privacy)
+
+## Regulatory
+
+- FalconX Bravo, Inc. — CFTC-registered Swap Dealer.
+- FalconX Limited — Malta Financial Services Authority Crypto-Asset Service Provider.
+- FalconX Delta, Inc. — NMLS ID # 2419717.

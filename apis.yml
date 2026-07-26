@@ -1,8 +1,16 @@
 aid: falconx
 name: FalconX
-description: 'FalconX is a company surfaced as a portfolio company of accel, lightspeed-venture-partners,
-  sapphire-ventures and added to the API Evangelist network as a stub for enrichment. Sector: consumer.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'FalconX is an institutional digital-asset prime brokerage that provides
+  trading, credit and financing, custody, and market-access services to banks, asset
+  managers, hedge funds, and other financial institutions. The platform offers spot,
+  derivatives, options, and FX execution across 400+ tokens via an OTC desk, an
+  execution-management system, and direct market access (DMA) with cross-margining
+  and one-click borrowing, alongside margin loans, structured products, staking, and
+  ETF liquidity provision. FalconX exposes a REST trading API (api.falconx.io) for
+  price quotes, order execution, trade history, balances, transfers, and trade limits,
+  documented publicly on a Stoplight developer portal and monitored via an Atlassian
+  status page. FalconX entities are regulated as a CFTC-registered swap dealer and a
+  Malta MFSA crypto-asset service provider.'
 url: https://raw.githubusercontent.com/api-evangelist/falconx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +20,53 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/651c447abe93254c6451b1b3/6555443ed247940a60323128_FalconX_OpenGraph%20(1).png
 tags:
 - Company
-- Consumer
-apis: []
+- Cryptocurrency
+- Digital Assets
+- Prime Brokerage
+- Trading
+- Institutional
+- Financial Services
+- Custody
+- Derivatives
+- OTC
+apis:
+- name: FalconX API
+  description: 'FalconX REST trading API for institutional digital-asset execution:
+    price quotes, order placement and execution, trade history, balances, transfers,
+    and trade limits, across OTC, execution-management (Execute), and direct market
+    access (DMA) products.'
+  humanURL: https://falconx.stoplight.io
+  baseURL: https://api.falconx.io
+  tags:
+  - Trading
+  - Cryptocurrency
+  - Execution
+  - Digital Assets
+  properties:
+  - type: Documentation
+    url: https://falconx.stoplight.io
+  - type: APIReference
+    url: https://falconx.stoplight.io
+  - type: Authentication
+    url: authentication/falconx-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -26,4 +74,41 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.falconx.io
+  url: https://www.falconx.io
+- type: DeveloperPortal
+  url: https://falconx.stoplight.io
+- type: Documentation
+  url: https://falconx.stoplight.io
+- type: APIReference
+  url: https://falconx.stoplight.io
+- type: SignUp
+  url: https://app.falconx.io/login
+- type: Login
+  url: https://app.falconx.io/login
+- type: Blog
+  url: https://www.falconx.io/newsroom
+- type: Support
+  url: https://www.falconx.io/contact
+- type: TermsOfService
+  url: https://www.falconx.io/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.falconx.io/privacy
+- type: Security
+  url: https://www.falconx.io/security-report
+- type: StatusPage
+  url: https://status.falconx.io
+- type: Authentication
+  url: authentication/falconx-authentication.yml
+- type: Lifecycle
+  url: lifecycle/falconx-lifecycle.yml
+- type: Conformance
+  url: conformance/falconx-conformance.yml
+- type: DomainSecurity
+  url: security/falconx-domain-security.yml
+- type: LLMsTxt
+  url: llms/falconx-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

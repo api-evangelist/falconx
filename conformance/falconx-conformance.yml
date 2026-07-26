@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.falconx.io/security-report
+note: >-
+  Regulatory registrations and standards posture for FalconX, gathered from the
+  company's public security/legal pages. These are regulatory licenses, not
+  independent security certifications (no public SOC 2 / ISO 27001 attestation
+  was found), so no `Compliance` rating pointer is asserted.
+standards:
+- id: cftc-swap-dealer
+  conforms: true
+  evidence: FalconX Bravo, Inc. is registered as a Swap Dealer with the U.S. Commodity
+    Futures Trading Commission (CFTC).
+- id: mfsa-casp
+  conforms: true
+  evidence: FalconX Limited is licensed as a Crypto-Asset Service Provider by the
+    Malta Financial Services Authority (MFSA).
+- id: nmls-money-transmission
+  conforms: true
+  evidence: FalconX Delta, Inc. holds NMLS ID # 2419717.
+- id: oauth2
+  conforms: false
+  evidence: API uses an API-key security scheme, not OAuth2.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public OpenAPI available to confirm application/problem+json error
+    responses.
