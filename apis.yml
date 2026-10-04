@@ -48,6 +48,9 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 image: https://cdn.prod.website-files.com/651c447abe93254c6451b1b3/6555443ed247940a60323128_FalconX_OpenGraph%20(1).png
+x-docs-platform: stoplight
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
 - Company
 - Cryptocurrency
@@ -55,7 +58,7 @@ tags:
 - Prime Brokerage
 - Trading
 - Institutional
-- Financial-Services
+- Financial Services
 - Custody
 - Derivatives
 - OTC
@@ -70,6 +73,7 @@ tags_raw:
 - Custody
 - Derivatives
 - OTC
+- Financial-Services
 apis:
 - name: FalconX API
   description: 'FalconX REST trading API for institutional digital-asset execution:
